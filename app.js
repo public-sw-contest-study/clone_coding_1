@@ -18,3 +18,8 @@ const c = {
 
 console.log(c);
 console.log(c.name);
+
+function d() {
+    console.log("hello");
+}
+d();
