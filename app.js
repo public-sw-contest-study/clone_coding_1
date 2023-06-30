@@ -23,3 +23,13 @@ function d() {
     console.log("hello");
 }
 d();
+
+const age = 10;
+function e(cnt) {
+    return cnt + 2;
+}
+const krage = e(20);
+console.log(krage);
+
+const age2 = prompt("how old?");
+console.log(typeof "15", typeof parseInt("15"));
