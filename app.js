@@ -37,5 +37,22 @@
 const title = document.querySelector(".hello h1");
 
 
-title.innerText = "Hello";
-console.log(title);
+// title.innerText = "Hello";
+
+// title.style.color = "blue";
+
+// console.log(title);
+function handleTitleClick() {
+    console.log("tutle was clicked!");
+    title.style.color = "blue";
+}
+function handleWindowResize(){
+    document.body.style.backgroundColor = "tomato";
+}
+function hacdleWindowCopy(){
+    alert("copy!");
+}
+title.addEventListener("click", handleTitleClick);
+
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", hacdleWindowCopy);
